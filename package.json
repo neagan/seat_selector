@@ -1,0 +1,11 @@
+{
+  "name": "airplane",
+  "version": "0.1.0",
+  "description": "Airplane Seat Selector ===",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "neagan26@gmail.com",
+  "license": "MIT"
+}
