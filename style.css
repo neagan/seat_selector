@@ -1,0 +1,16 @@
+div.plane {
+  border: 3px solid;
+  margin: auto;
+  width: 25%;
+}
+
+ul.row {
+  display: inline-block;
+  margin: auto;
+  height: 50%;
+}
+
+li.seat {
+  display: block;
+  padding: 5px;
+}
