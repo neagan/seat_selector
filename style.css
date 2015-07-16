@@ -1,8 +1,38 @@
+header#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid;
+  display: block;
+}
+
+h1#title {
+  text-align: center;
+  font-family: Georgia;
+}
+
 div.plane {
+  position: relative;
+  top: 100px;
   border: 3px solid;
   border-radius: 10px;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 25%;
+  background-color: #F2F2F2;
+
+}
+
+div.info {
+  visibility: hidden;
+  border: 3px solid;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
   background-color: #F2F2F2;
 }
 
