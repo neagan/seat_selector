@@ -1,7 +1,9 @@
 div.plane {
   border: 3px solid;
+  border-radius: 10px;
   margin: auto;
   width: 25%;
+  background-color: #F2F2F2;
 }
 
 ul.row {
@@ -13,4 +15,12 @@ ul.row {
 li.seat {
   display: block;
   padding: 5px;
+}
+
+li.current {
+  color: #FFD700;
+}
+
+i.fa-stop:hover {
+  color: #FFD700;
 }
