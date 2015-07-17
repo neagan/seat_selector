@@ -3,13 +3,14 @@ header#navbar {
   top: 0;
   left: 0;
   right: 0;
-  border-bottom: 1px solid;
+  border-bottom: 3px solid;
   display: block;
+  background-color: #F6F2FF;
 }
 
 h1#title {
   text-align: center;
-  font-family: Georgia;
+  font-family: Impact;
 }
 
 div.plane {
@@ -21,7 +22,7 @@ div.plane {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 25%;
-  background-color: #F2F2F2;
+  background-color: #F6F2FF;
 
 }
 

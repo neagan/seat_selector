@@ -1,24 +1,21 @@
-(function() {
-  var seats = document.getElementsByClassName('seat');
+$(document).ready(function() {
+  var seatNums = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'D1', 'D2'];
 
-  for (var i = 0; i < seats.length; i++) {
-    seats[i].onclick = function() {
-      if (this.classList.contains('current')) {
-        this.classList.toggle('current');
-      } else {
+  $('.seat').each(function() {
+    $(this).on('click', function() {
+      if (!$(this).hasClass('current')) {
         removeHighlight();
-        this.classList.toggle('current');
       }
-    }
-  }
+      $(this).toggleClass('current');
+    });
+  });
 
   function removeHighlight() {
-    for (var j = 0; j < seats.length; j++) {
-      if (seats[j].classList.contains('current')) {
-        return seats[j].classList.toggle('current');
+    $('.seat').each(function() {
+      if ($(this).hasClass('current')) {
+        return $(this).toggleClass('current');
       }
-    }
+    });
   }
 
-  function toggleBox
-})();
+});
